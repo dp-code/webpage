@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{qr8p:function(n,o,t){"use strict";t.r(o),t.d(o,"TechstackModule",function(){return s});var e=t("ofXK"),r=t("1kSV"),c=t("fXoL");let s=(()=>{class n{}return n.\u0275mod=c.Ib({type:n}),n.\u0275inj=c.Hb({factory:function(o){return new(o||n)},imports:[[e.b,r.e]]}),n})()}}]);
