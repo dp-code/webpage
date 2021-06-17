@@ -1,0 +1,1098 @@
+2021-02-16 16:12:09,959 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-02-16 16:12:09,961 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting WebpageApplication using Java 11.0.5 on reynardine with PID 5528 (D:\Workbench\webpage\backend\target\classes started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:12:09,963 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-16 16:12:10,005 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\dp\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+2021-02-16 16:12:10,006 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-16 16:12:10,007 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-16 16:12:10,706 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-16 16:12:10,712 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:12:10,712 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-16 16:12:10,712 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-16 16:12:10,777 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-16 16:12:10,778 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 771 ms
+2021-02-16 16:12:10,931 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:12:10,982 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:12:11,058 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-16 16:12:11,072 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:12:11,091 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-16 16:12:11,103 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started WebpageApplication in 1.733 seconds (JVM running for 2.391)
+2021-02-16 16:12:35,158 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting WebpageApplication using Java 11.0.5 on reynardine with PID 6928 (D:\Workbench\webpage\backend\target\classes started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:12:35,163 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-16 16:12:35,164 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-02-16 16:12:35,210 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\dp\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+2021-02-16 16:12:35,211 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-16 16:12:35,211 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-16 16:12:36,019 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-16 16:12:36,025 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:12:36,025 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-16 16:12:36,026 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-16 16:12:36,103 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-16 16:12:36,103 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 885 ms
+2021-02-16 16:12:36,260 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:12:36,318 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:12:36,386 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-16 16:12:36,399 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:12:36,416 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-16 16:12:36,429 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started WebpageApplication in 1.712 seconds (JVM running for 2.361)
+2021-02-16 16:12:50,340 INFO org.apache.juli.logging.DirectJDKLog [http-nio-0.0.0.0-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-16 16:12:50,340 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-0.0.0.0-8080-exec-4] Initializing Servlet 'dispatcherServlet'
+2021-02-16 16:12:50,341 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-0.0.0.0-8080-exec-4] Completed initialization in 1 ms
+2021-02-16 16:12:50,391 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:12:50,391 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,391 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,392 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,443 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-3] JsonDataController.getJsonList called from 
+2021-02-16 16:12:50,446 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-6] JsonDataController.getJsonList called from 
+2021-02-16 16:12:50,458 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-2] JsonDataController.getJsonList called from 
+2021-02-16 16:12:50,491 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-7] JsonDataController.getJsonList called from 
+2021-02-16 16:12:50,522 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-8] JsonDataController.getJsonList called from 
+2021-02-16 16:12:50,537 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-9] JsonDataController.getJsonList called from 
+2021-02-16 16:12:50,538 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-10] JsonDataController.getJsonList called from 
+2021-02-16 16:12:50,592 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,596 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,602 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,609 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,616 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,616 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,626 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,629 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,631 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,645 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,649 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,658 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,665 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,667 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,673 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,684 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,692 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,697 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,706 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,710 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,723 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,732 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,735 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,741 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,748 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,751 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,756 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,766 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,772 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,781 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,788 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,792 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,798 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,813 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,818 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,826 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,837 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,840 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,846 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,857 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,862 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,869 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,879 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,883 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,891 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,901 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,906 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,908 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,915 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,918 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,921 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,928 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,931 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,934 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,940 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,942 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,945 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,953 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,955 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:12:50,960 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,128 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,130 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,135 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,142 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,146 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,150 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,161 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,164 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,172 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,174 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,177 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,183 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,188 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,188 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,194 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,198 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,198 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,202 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,207 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,208 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,211 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,219 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,221 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,226 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,232 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,234 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,239 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,246 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,252 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,258 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,268 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,272 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,276 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,283 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,285 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,290 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,298 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,299 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,304 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,310 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,312 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,317 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,324 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,326 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,330 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,337 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,338 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,347 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,354 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,354 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,358 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,369 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,369 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,373 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,378 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,382 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,384 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,393 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,396 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,399 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:12:51,472 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-9] JsonDataController.getJsonList called from 
+2021-02-16 16:13:20,778 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:13:20,781 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:20,785 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:20,787 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:20,896 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-1] JsonDataController.getJsonList called from 
+2021-02-16 16:13:20,897 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-8] JsonDataController.getJsonList called from 
+2021-02-16 16:13:20,902 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-3] JsonDataController.getJsonList called from 
+2021-02-16 16:13:20,905 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-7] JsonDataController.getJsonList called from 
+2021-02-16 16:13:20,910 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-2] JsonDataController.getJsonList called from 
+2021-02-16 16:13:20,912 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-9] JsonDataController.getJsonList called from 
+2021-02-16 16:13:20,987 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:20,989 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:20,993 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,000 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,001 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,005 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,011 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,013 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,016 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,022 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,025 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,029 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,035 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,038 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,041 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,047 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,049 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,053 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,059 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,062 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,065 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,071 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,073 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,077 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,083 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,085 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,090 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,095 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,097 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,101 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,107 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,109 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,112 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,118 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,121 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,126 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,132 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,134 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,139 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,146 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,149 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,153 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,162 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,167 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,170 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,178 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,182 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,187 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,195 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,203 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,209 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,220 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,222 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,226 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,232 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,237 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,240 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,249 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,252 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,255 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:21,306 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-10] JsonDataController.getJsonList called from 
+2021-02-16 16:13:21,318 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-8] JsonDataController.getJsonList called from 
+2021-02-16 16:13:30,784 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:13:30,790 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:30,790 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:30,792 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:30,893 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-9] JsonDataController.getJsonList called from 
+2021-02-16 16:13:30,897 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-4] JsonDataController.getJsonList called from 
+2021-02-16 16:13:30,905 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-6] JsonDataController.getJsonList called from 
+2021-02-16 16:13:30,911 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-5] JsonDataController.getJsonList called from 
+2021-02-16 16:13:30,916 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-10] JsonDataController.getJsonList called from 
+2021-02-16 16:13:30,921 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-8] JsonDataController.getJsonList called from 
+2021-02-16 16:13:31,000 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,002 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,006 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,023 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,027 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,030 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,041 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,044 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,048 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,061 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,062 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,065 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,076 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,078 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,080 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,086 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,090 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,094 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,101 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,103 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,107 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,116 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,120 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,124 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,137 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,143 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,146 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,155 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,158 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,161 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,170 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,174 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,178 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,186 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,188 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,192 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,199 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,201 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,205 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,230 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,232 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,235 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,244 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,245 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,251 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,256 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,259 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,261 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,266 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,269 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,270 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,277 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,279 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,282 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,288 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,290 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,292 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,298 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,300 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,304 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,360 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-3] JsonDataController.getJsonList called from 
+2021-02-16 16:13:31,384 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-1] JsonDataController.getJsonList called from 
+2021-02-16 16:13:31,456 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,462 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,471 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,472 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,481 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,483 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,492 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,493 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,503 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,505 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,512 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,514 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,521 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,524 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,532 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,534 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,543 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,546 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,557 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,562 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,573 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,576 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,586 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,589 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,601 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,604 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,614 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,617 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,626 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,628 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,637 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,639 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,649 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,651 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,661 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,669 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,682 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,685 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,697 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:31,700 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:42,956 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:13:42,959 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:13:42,961 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:42,964 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:13:43,060 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:43,062 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:43,068 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:13:43,068 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:13:43,070 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:13:43,072 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:13:43,074 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:43,076 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:13:43,078 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:13:43,080 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-4] HtmlController.getData called from 
+2021-02-16 16:13:43,082 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:13:46,782 INFO com.dp.webpage.controller.MessageController [http-nio-0.0.0.0-8080-exec-5] Receiving message from 0:0:0:0:0:0:0:1
+2021-02-16 16:14:32,384 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-02-16 16:14:32,387 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting WebpageApplication using Java 11.0.5 on reynardine with PID 5652 (D:\Workbench\webpage\backend\target\classes started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:14:32,391 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-16 16:14:32,435 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\dp\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+2021-02-16 16:14:32,435 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-16 16:14:32,435 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-16 16:14:33,252 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-16 16:14:33,262 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:14:33,263 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-16 16:14:33,263 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-16 16:14:33,340 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-16 16:14:33,340 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 904 ms
+2021-02-16 16:14:33,532 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:14:33,581 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:14:33,646 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-16 16:14:33,664 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:14:33,680 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-16 16:14:33,694 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started WebpageApplication in 1.823 seconds (JVM running for 2.511)
+2021-02-16 16:14:39,019 INFO org.apache.juli.logging.DirectJDKLog [http-nio-0.0.0.0-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-16 16:14:39,020 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-0.0.0.0-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-02-16 16:14:39,021 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-0.0.0.0-8080-exec-1] Completed initialization in 1 ms
+2021-02-16 16:14:39,052 INFO com.dp.webpage.controller.MessageController [http-nio-0.0.0.0-8080-exec-1] Receiving message from 0:0:0:0:0:0:0:1
+2021-02-16 16:17:42,387 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:17:42,387 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:17:42,387 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:17:42,392 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:17:42,510 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:17:42,511 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:17:42,518 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:17:42,524 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:17:42,527 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:17:42,534 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:17:42,536 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:17:42,541 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:17:42,544 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:17:42,550 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-3] HtmlController.getData called from 
+2021-02-16 16:17:42,552 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,156 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:19:42,162 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,170 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,175 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,296 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,297 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,306 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,311 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,312 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-0.0.0.0-8080-exec-9] Resolved [org.springframework.web.server.ResponseStatusException: 500 INTERNAL_SERVER_ERROR "Localization value not found"]
+2021-02-16 16:19:42,318 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,326 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,333 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,338 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,342 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,350 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:19:42,355 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-5] HtmlController.getData called from 
+2021-02-16 16:19:42,364 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:20:47,566 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-02-16 16:20:47,568 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting WebpageApplication using Java 11.0.5 on reynardine with PID 2064 (D:\Workbench\webpage\backend\target\classes started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:20:47,573 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-16 16:20:47,620 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\dp\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+2021-02-16 16:20:47,621 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-16 16:20:47,622 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-16 16:20:48,655 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-16 16:20:48,664 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:20:48,664 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-16 16:20:48,665 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-16 16:20:48,759 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-16 16:20:48,759 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1136 ms
+2021-02-16 16:20:48,910 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:20:48,967 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:20:49,034 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-16 16:20:49,046 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:20:49,063 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-16 16:20:49,074 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started WebpageApplication in 2.211 seconds (JVM running for 3.427)
+2021-02-16 16:20:53,073 INFO org.apache.juli.logging.DirectJDKLog [http-nio-0.0.0.0-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-16 16:20:53,073 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-0.0.0.0-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-02-16 16:20:53,074 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-0.0.0.0-8080-exec-2] Completed initialization in 1 ms
+2021-02-16 16:20:53,113 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,113 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,113 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:20:53,114 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,128 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,134 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,156 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,156 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,163 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,169 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,170 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,179 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,185 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,189 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:20:53,190 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-6] HtmlController.getData called from 
+2021-02-16 16:20:53,197 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,785 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:21:21,796 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,800 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,809 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,926 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,932 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,934 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,940 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,943 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,947 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,951 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,952 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,951 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,958 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:21:21,961 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-3] HtmlController.getData called from 
+2021-02-16 16:21:21,966 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:21:46,949 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:21:46,953 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:21:46,958 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:21:46,962 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:21:47,054 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:21:47,056 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:21:47,059 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:21:47,063 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:21:47,066 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:21:47,069 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:21:47,073 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:21:47,077 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:21:47,080 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:21:47,084 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:21:47,086 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-9] HtmlController.getData called from 
+2021-02-16 16:21:47,090 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,311 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:21:54,313 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,318 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,335 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,431 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,432 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,435 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,438 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,438 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,446 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,448 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,452 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,452 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,457 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:21:54,460 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-1] HtmlController.getData called from 
+2021-02-16 16:21:54,465 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:22:04,491 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:22:04,509 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:22:04,515 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:22:04,525 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:22:04,624 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-7] HtmlController.getData called from 
+2021-02-16 16:22:40,317 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting WebpageApplication using Java 11.0.5 on reynardine with PID 5172 (D:\Workbench\webpage\backend\target\classes started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:22:40,321 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-16 16:22:40,323 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-02-16 16:22:40,377 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\dp\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+2021-02-16 16:22:40,378 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-16 16:22:40,379 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-16 16:22:41,212 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-16 16:22:41,219 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:22:41,220 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-16 16:22:41,221 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-16 16:22:41,296 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-16 16:22:41,297 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 917 ms
+2021-02-16 16:22:41,458 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:22:41,512 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:22:41,587 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-16 16:22:41,599 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:22:41,616 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-16 16:22:41,627 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started WebpageApplication in 1.772 seconds (JVM running for 2.5)
+2021-02-16 16:23:23,260 INFO org.apache.juli.logging.DirectJDKLog [http-nio-0.0.0.0-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-16 16:23:23,261 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-0.0.0.0-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-02-16 16:23:23,262 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-0.0.0.0-8080-exec-1] Completed initialization in 1 ms
+2021-02-16 16:23:23,306 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:23,306 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:23:23,307 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:23,307 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:23,381 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-4] HtmlController.getData called from 
+2021-02-16 16:23:25,177 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:23:25,190 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,211 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,218 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,458 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,460 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,465 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,466 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,470 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,474 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,477 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,478 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,483 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,490 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:25,498 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-10] HtmlController.getData called from 
+2021-02-16 16:23:25,503 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:27,575 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:23:27,584 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:27,584 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:27,591 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:37,695 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:23:37,701 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:37,701 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:37,707 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:37,884 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-10] JsonDataController.getJsonList called from 
+2021-02-16 16:23:37,884 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-5] JsonDataController.getJsonList called from 
+2021-02-16 16:23:37,923 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-1] JsonDataController.getJsonList called from 
+2021-02-16 16:23:37,936 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-2] JsonDataController.getJsonList called from 
+2021-02-16 16:23:37,936 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-3] JsonDataController.getJsonList called from 
+2021-02-16 16:23:37,961 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-4] JsonDataController.getJsonList called from 
+2021-02-16 16:23:37,975 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-6] JsonDataController.getJsonList called from 
+2021-02-16 16:23:38,078 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,078 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,087 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,103 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,111 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,111 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,130 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,141 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,151 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,163 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,171 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,177 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,184 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,187 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,191 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,201 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,207 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,212 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,221 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,223 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,227 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,236 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,238 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,242 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,250 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,252 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,256 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,268 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,273 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,276 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,284 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,286 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,289 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,299 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,305 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,309 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,315 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,318 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,321 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,328 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,329 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,333 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,342 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,343 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,349 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,355 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,358 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,362 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,374 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,377 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,384 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,391 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,394 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,398 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,406 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,407 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,411 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,421 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,425 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,428 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,559 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,562 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,565 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,572 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,575 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,578 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,588 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,595 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,595 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,604 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,607 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,612 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,619 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,628 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,633 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,642 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,645 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,653 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,660 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,663 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,667 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,674 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,675 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,680 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,686 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,688 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,692 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,699 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,701 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,710 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,716 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,718 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,722 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,728 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,730 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,735 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,741 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,742 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,745 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,751 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,753 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,757 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,763 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,766 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,771 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,778 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,779 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,784 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,791 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,793 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,798 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,803 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,806 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,810 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,818 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,821 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,826 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,833 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,835 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,838 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:38,897 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-5] JsonDataController.getJsonList called from 
+2021-02-16 16:23:41,568 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-3] JsonDataController.getJsonList called from 
+2021-02-16 16:23:42,546 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-9] JsonDataController.getJsonList called from 
+2021-02-16 16:23:43,455 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-1] JsonDataController.getJsonList called from 
+2021-02-16 16:23:44,498 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-9] JsonDataController.getJsonList called from 
+2021-02-16 16:23:46,073 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:23:46,075 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:46,082 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:46,082 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:46,173 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-9] HtmlController.getData called from 
+2021-02-16 16:23:53,930 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:23:53,934 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:53,937 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:53,941 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,069 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-2] JsonDataController.getJsonList called from 
+2021-02-16 16:23:54,075 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-6] JsonDataController.getJsonList called from 
+2021-02-16 16:23:54,080 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-1] JsonDataController.getJsonList called from 
+2021-02-16 16:23:54,086 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-4] JsonDataController.getJsonList called from 
+2021-02-16 16:23:54,093 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-10] JsonDataController.getJsonList called from 
+2021-02-16 16:23:54,093 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-9] JsonDataController.getJsonList called from 
+2021-02-16 16:23:54,149 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-5] JsonDataController.getJsonList called from 
+2021-02-16 16:23:54,235 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,239 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,243 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,251 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,253 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,261 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,274 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,276 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,280 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,287 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,289 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,293 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,300 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,302 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,306 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,312 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,314 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,318 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,324 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,326 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,331 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,340 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,344 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,349 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,357 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,360 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,363 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,371 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,372 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,375 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,382 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,385 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,388 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,399 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,403 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,410 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,419 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,419 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,424 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,430 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,433 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,436 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,443 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,445 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,449 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,456 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,458 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,461 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,466 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,468 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,471 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,477 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,479 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,482 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,487 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,489 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,492 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,500 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,503 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,505 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,639 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,641 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,645 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,655 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,659 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,663 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,673 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,676 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,685 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,691 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,694 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,697 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,704 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,706 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,709 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,715 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,717 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,720 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,726 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,729 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,735 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,741 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,743 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,749 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,754 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,756 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,759 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,765 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,767 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,769 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,775 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,777 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,780 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,786 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,788 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,791 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,798 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,801 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,804 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,809 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,811 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,814 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,820 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,821 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,825 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,830 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,832 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,836 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,841 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,843 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,847 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,853 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,855 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,858 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,864 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,866 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,870 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,877 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,879 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,881 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:54,937 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-8] JsonDataController.getJsonList called from 
+2021-02-16 16:23:59,039 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:23:59,040 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,046 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,050 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,155 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,156 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,159 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,161 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,166 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,166 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,168 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,171 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,174 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,189 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-9] HtmlController.getData called from 
+2021-02-16 16:23:59,189 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:23:59,190 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:24:05,031 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:24:05,033 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:24:05,037 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:24:05,040 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:24:05,194 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-10] HtmlController.getData called from 
+2021-02-16 16:31:39,714 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting WebpageApplication using Java 11.0.5 on reynardine with PID 4280 (D:\Workbench\webpage\backend\target\classes started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:31:39,717 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-16 16:31:39,721 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-02-16 16:31:39,759 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\dp\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+2021-02-16 16:31:39,759 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-16 16:31:39,760 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-16 16:31:40,484 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-16 16:31:40,484 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:31:40,484 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-16 16:31:40,484 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-16 16:31:40,562 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-16 16:31:40,562 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 802 ms
+2021-02-16 16:31:40,687 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:31:40,734 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:31:40,797 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-16 16:31:40,812 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:31:40,828 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-16 16:31:40,828 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started WebpageApplication in 1.607 seconds (JVM running for 2.262)
+2021-02-16 16:31:55,105 INFO org.apache.juli.logging.DirectJDKLog [http-nio-0.0.0.0-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-16 16:31:55,105 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-0.0.0.0-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-02-16 16:31:55,106 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-0.0.0.0-8080-exec-1] Completed initialization in 1 ms
+2021-02-16 16:31:55,627 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:31:55,627 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:31:55,628 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:31:55,627 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:31:55,685 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-3] HtmlController.getData called from 
+2021-02-16 16:32:02,054 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:32:02,058 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,063 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,066 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,166 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-5] JsonDataController.getJsonList called from 
+2021-02-16 16:32:02,166 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-6] JsonDataController.getJsonList called from 
+2021-02-16 16:32:02,177 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-2] JsonDataController.getJsonList called from 
+2021-02-16 16:32:02,178 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-10] JsonDataController.getJsonList called from 
+2021-02-16 16:32:02,186 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-1] JsonDataController.getJsonList called from 
+2021-02-16 16:32:02,190 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-9] JsonDataController.getJsonList called from 
+2021-02-16 16:32:02,256 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,261 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,263 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,271 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,273 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,280 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,285 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,292 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,295 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,304 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,306 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,311 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,317 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,319 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,327 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,331 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,334 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,340 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,345 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,349 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,354 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,379 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,381 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,384 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,390 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,392 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,395 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,400 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,403 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,407 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,413 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,415 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,417 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,425 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,424 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,425 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,433 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,433 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,436 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,442 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,443 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,447 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,450 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,454 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,456 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,458 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,461 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,464 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,470 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,475 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,476 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,481 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,484 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,490 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,494 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,498 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,503 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,508 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,512 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,515 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:32:02,620 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-2] JsonDataController.getJsonList called from 
+2021-02-16 16:32:02,674 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-3] JsonDataController.getJsonList called from 
+2021-02-16 16:32:04,251 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-5] JsonDataController.getJsonList called from 
+2021-02-16 16:32:09,510 INFO com.dp.webpage.controller.JsonDataController [http-nio-0.0.0.0-8080-exec-10] JsonDataController.getJsonList called from 
+2021-02-16 16:32:10,569 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:32:10,572 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,576 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,578 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,665 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,669 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,672 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,675 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,675 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,682 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,682 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,685 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,686 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,691 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:32:10,699 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-7] HtmlController.getData called from 
+2021-02-16 16:32:10,699 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:32:13,973 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:32:13,975 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:32:13,977 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:32:13,980 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,762 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:32:15,763 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,773 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,774 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,872 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,874 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,878 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,878 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,884 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,884 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,889 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-1] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,892 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-2] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,896 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-3] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,898 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:32:15,903 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-5] HtmlController.getData called from 
+2021-02-16 16:32:15,907 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:32:20,283 INFO com.dp.webpage.controller.MessageController [http-nio-0.0.0.0-8080-exec-4] Receiving message from 0:0:0:0:0:0:0:1
+2021-02-16 16:33:06,581 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:33:06,585 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-5] LocalizationController.getLocalization called from 
+2021-02-16 16:33:06,589 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:33:06,591 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-4] LocalizationController.getLocalization called from 
+2021-02-16 16:33:06,662 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-9] HtmlController.getData called from 
+2021-02-16 16:33:56,695 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting WebpageApplication using Java 11.0.5 on reynardine with PID 8088 (D:\Workbench\webpage\backend\target\classes started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:33:56,699 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-16 16:33:56,705 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-02-16 16:33:56,744 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\dp\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/dp/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+2021-02-16 16:33:56,745 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-16 16:33:56,745 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-16 16:33:57,543 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-16 16:33:57,550 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:33:57,551 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-16 16:33:57,551 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-16 16:33:57,622 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-16 16:33:57,622 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 876 ms
+2021-02-16 16:33:57,788 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:33:57,844 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:33:57,925 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-16 16:33:57,937 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2021-02-16 16:33:57,955 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-16 16:33:57,967 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started WebpageApplication in 1.712 seconds (JVM running for 2.351)
+2021-02-16 16:33:59,284 INFO org.apache.juli.logging.DirectJDKLog [http-nio-0.0.0.0-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-16 16:33:59,285 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-0.0.0.0-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-02-16 16:33:59,285 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-0.0.0.0-8080-exec-1] Completed initialization in 0 ms
+2021-02-16 16:33:59,675 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:33:59,675 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:33:59,675 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-7] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:33:59,675 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:33:59,711 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-2] HtmlController.getData called from 
+2021-02-16 16:34:01,519 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-6] LocalizationController.getLocaleInfo called from 
+2021-02-16 16:34:01,521 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-10] LocalizationController.getLocalization called from 
+2021-02-16 16:34:01,527 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-8] LocalizationController.getLocalization called from 
+2021-02-16 16:34:01,527 INFO com.dp.webpage.controller.LocalizationController [http-nio-0.0.0.0-8080-exec-9] LocalizationController.getLocalization called from 
+2021-02-16 16:34:01,598 INFO com.dp.webpage.controller.HtmlController [http-nio-0.0.0.0-8080-exec-4] HtmlController.getData called from 
+2021-02-16 16:41:25,793 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:41:29,252 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting WebpageApplication using Java 11.0.5 on reynardine with PID 8088 (D:\Workbench\webpage\backend\target\classes started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:41:29,252 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-16 16:41:29,371 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-16 16:41:29,372 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-16 16:41:29,372 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-16 16:41:29,388 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-16 16:41:29,388 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 134 ms
+2021-02-16 16:41:29,439 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:41:29,448 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:41:29,464 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-16 16:41:29,472 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-16 16:41:29,476 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started WebpageApplication in 0.249 seconds (JVM running for 453.86)
+2021-02-16 16:41:29,477 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-02-16 16:41:33,899 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-16] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:41:33,961 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting WebpageApplication using Java 11.0.5 on reynardine with PID 8088 (D:\Workbench\webpage\backend\target\classes started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:41:33,961 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-16 16:41:34,180 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-16 16:41:34,180 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-16 16:41:34,180 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-16 16:41:34,196 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-16 16:41:34,196 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 235 ms
+2021-02-16 16:41:34,258 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:41:34,258 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:41:34,293 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-16 16:41:34,301 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-16 16:41:34,305 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started WebpageApplication in 0.362 seconds (JVM running for 458.689)
+2021-02-16 16:41:34,305 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-02-16 16:41:36,886 INFO org.springframework.boot.StartupInfoLogger [main] Starting WebpageApplicationTests using Java 15.0.2 on reynardine with PID 5344 (started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:41:36,901 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-02-16 16:41:36,923 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-02-16 16:41:38,203 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:41:38,313 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:41:38,478 INFO org.springframework.boot.StartupInfoLogger [main] Started WebpageApplicationTests in 1.971 seconds (JVM running for 3.11)
+2021-02-16 16:41:39,025 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:46:06,283 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-21] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:46:40,509 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting WebpageApplication using Java 11.0.5 on reynardine with PID 8088 (D:\Workbench\webpage\backend\target\classes started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:46:40,509 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-16 16:46:40,681 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-16 16:46:40,681 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-16 16:46:40,681 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-16 16:46:40,697 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-16 16:46:40,697 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 188 ms
+2021-02-16 16:46:40,728 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:46:40,728 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:46:40,759 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-16 16:46:40,775 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-16 16:46:40,791 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started WebpageApplication in 0.431 seconds (JVM running for 765.182)
+2021-02-16 16:46:40,791 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-02-16 16:46:42,630 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-31] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:46:42,702 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting WebpageApplication using Java 11.0.5 on reynardine with PID 8088 (D:\Workbench\webpage\backend\target\classes started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:46:42,702 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-16 16:46:42,946 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-16 16:46:42,948 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-16 16:46:42,948 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-16 16:46:42,976 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-16 16:46:42,976 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 270 ms
+2021-02-16 16:46:43,047 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:46:43,058 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:46:43,083 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-16 16:46:43,091 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-16 16:46:43,094 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started WebpageApplication in 0.426 seconds (JVM running for 767.479)
+2021-02-16 16:46:43,095 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-02-16 16:46:44,231 INFO org.springframework.boot.StartupInfoLogger [main] Starting WebpageApplicationTests using Java 15.0.2 on reynardine with PID 7412 (started by dp in D:\Workbench\webpage\backend)
+2021-02-16 16:46:44,237 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-02-16 16:46:44,246 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-02-16 16:46:45,453 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:46:45,567 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2021-02-16 16:46:45,742 INFO org.springframework.boot.StartupInfoLogger [main] Started WebpageApplicationTests in 1.901 seconds (JVM running for 2.949)
+2021-02-16 16:46:46,175 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'

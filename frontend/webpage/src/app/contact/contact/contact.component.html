@@ -1,0 +1,66 @@
+<div class="webpage-block" [hidden]="showPrivacyPolicy">
+  <h2>{{ contactLabelHeadline }}</h2>
+  <br/>
+  <div>{{ contactLabelText }}</div>
+</div>
+<div *ngIf="localizationService.getLocale() === 'de'">
+  <div class="webpage-block" *ngIf="!showPrivacyPolicy">
+    <ckeditor #ckEditor [editor]="editor" data="" [config]="config"></ckeditor>
+  </div>
+  <div class="container-fluid webpage-container" *ngIf="!showPrivacyPolicy">
+    <div class="row">
+      <div class="col-xxs-12 col-xs-9 col-sm-9 col-md-6 col-lg-6">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="privacypolicy" style="margin-top: 14px"
+                 [checked]="privacyPolicy" (change)="privacyPolicy = !privacyPolicy">
+          <label class="form-check-label" for="privacypolicy" style="margin-top: 9px; padding-right: 0.5em">
+            {{ contactLabelAccept }}
+          </label>
+          <a href="javascript:void(0)" (click)="onPrivacyShow()">{{ contactLabelPrivacy }}</a>
+        </div>
+      </div>
+      <div class="col-xxs-12 col-xs-3 col-sm-3 col-md-6 col-lg-6">
+        <br class="d-inline-block d-sm-none"/>
+        <button class="btn btn-dark float-right" (click)="onSend()">{{ contactButtonSend }}</button>
+      </div>
+    </div>
+  </div>
+  <div class="webpage-block" *ngIf="alertPrivacyPolicy">
+    <div class="alert alert-warning" role="alert">
+      {{ contactAlertPrivacy }}
+    </div>
+  </div>
+  <div class="webpage-block" *ngIf="alertMessageSuccess">
+    <div class="alert alert-success" role="alert">
+      {{ contactAlertSuccess }}
+    </div>
+  </div>
+  <div class="webpage-block" *ngIf="alertMessageFailure">
+    <div class="alert alert-danger" role="alert">
+      FAIL
+    </div>
+  </div>
+  <div class="webpage-block" *ngIf="alertMessageEmpty">
+    <div class="alert alert-warning" role="alert">
+      {{ contactAlertEmpty }}
+    </div>
+  </div>
+  <div class="webpage-block" *ngIf="showPrivacyPolicy">
+    <div [innerHtml]="contactPrivacyText"></div>
+    <br/>
+    <button class="btn btn-dark float-right" (click)="onPrivacyAccept()">
+      {{ contactButtonPrivacy }}
+    </button>
+  </div>
+</div>
+<div *ngIf="localizationService.getLocale() !== 'de'">
+  <div class="webpage-block">
+    <div class="alert alert-danger" role="alert">
+      Sorry! Since I am unfamiliar with the legal situation regarding privacy this contact form is only available on the
+      German version of this page!
+    </div>
+  </div>
+</div>
+<div class="webpage-block" [hidden]="showPrivacyPolicy">
+  <a class="btn btn-light float-right" href="/imprint">{{ contactLabelImprint }}</a>
+</div>

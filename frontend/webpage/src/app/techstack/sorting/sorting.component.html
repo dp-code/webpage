@@ -1,0 +1,17 @@
+<div class="d-block d-sm-none" style="height: 20px;"></div>
+<div class="btn-group">
+  <div class="btn-group" ngbDropdown role="group">
+    <button class="btn btn-light" ngbDropdownToggle>{{ category?.title }}</button>
+    <div class="dropdown-menu" ngbDropdownMenu>
+      <ng-container *ngFor="let category of categories; index as i">
+        <button ngbDropdownItem (click)="setCategory(category)">{{ category.title }}</button>
+      </ng-container>
+    </div>
+  </div>
+  <button type="button" class="btn" [ngClass]="direction === 'dsc' ? 'btn-warning' : 'btn-light'" (click)="setDirection('dsc')">
+    <i class="fas fa-angle-down"></i>
+  </button>
+  <button type="button" class="btn" [ngClass]="direction === 'asc' ? 'btn-warning' : 'btn-light'" (click)="setDirection('asc')">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</div>

@@ -1,0 +1,9 @@
+.flag-inactive {
+  width: 16px;
+  height: 16px;
+}
+
+.flag-active {
+  width: 32px;
+  height: 32px;
+}

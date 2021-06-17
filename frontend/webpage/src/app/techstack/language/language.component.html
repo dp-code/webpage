@@ -1,0 +1,7 @@
+<div class="btn-group flex-wrap" style="width: 100%">
+  <ng-container *ngFor="let language of languages">
+    <button class="btn" [ngClass]="getButtonStyle(language)" (click)="setLanguage(language)">
+      {{ language.title }}
+    </button>
+  </ng-container>
+</div>

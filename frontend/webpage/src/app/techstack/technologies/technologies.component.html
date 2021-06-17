@@ -1,0 +1,13 @@
+<div class="container-fluid component_container d-none d-sm-block">
+  <div class="row">
+    <ng-container *ngFor="let category of categories; index as i">
+      <div class="col-xxs-12 col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <div>{{ category.title }}</div>
+      </div>
+    </ng-container>
+  </div>
+</div>
+<hr class="d-none d-sm-block"/>
+<ng-container *ngFor="let technology of getTechnologies(); index as i">
+  <app-technology [technology]="technology"></app-technology>
+</ng-container>
